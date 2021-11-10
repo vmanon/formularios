@@ -1,0 +1,22 @@
+.texto{
+	font-size:16pt;
+	font-weight: bold;
+	color: #060FC6;
+}
+
+.campo{
+	font-size:16pt;
+	font-weight: bold;
+	color: white;
+	background: #060FC6;
+	text-align:center;
+	border-radius: 7px;
+}
+
+.boton{
+	font-size:16pt;
+	font-weight: bold;
+	color: white;
+	background: #060FC6;
+	border-radius: 7px;	
+}

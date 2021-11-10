@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="estilos_formulario.css" rel="stylesheet" type="text/css">
+		<link href="logo_formulario.jpg" rel="shortcut icon" type="image/jpg">
+	</head>
+	<body bgcolor="#FCD7C5"><center>
+		<br>
+		<table border="3" width="80%">
+			<form name="formulario"> <!--Se debe abrir el formularoi y ponerle un nombre OBLIGATORIO -->
+				<tr>
+					<td> <p class="texto">Indica tu nombre</p> </td>
+					<td align="center"> <input name="nombre" type="text" class="campo" size="15" maxlength="15"> </td>
+					<td> <p class="texto">Se usa el input tipo text y permite capturar texto</p> </td>
+				</tr>
+				<tr>
+					<td> <p class="texto">Indica tu contraseña</p> </td>
+					<td align="center"> <input name="contrasena" type="password" class="campo"> </td>
+					<td> <p class="texto">Se usa el input tipo password y permite capturar texto <br> sin que se vea en la pantalla </p> </td>
+				</tr>
+				<tr>
+					<td> <p class="texto">Indica tu edad</p> </td>
+					<td align="center"> <input name="edad" type="number" class="campo" step="10" min="0" max="100"> </td>
+					<td> <p class="texto">Se usa el input tipo number y permite capturar sólo números </p> </td>
+				</tr>
+				<tr>
+					<td> <p class="texto">Indica tu fecha de nacimiento</p> </td>
+					<td align="center"> <input name="fec_nac" type="date" class="campo" value="2021-08-10" min="2021-08-10" max="2021-11-25"> </td>
+					<td> <p class="texto">Se usa el input tipo date y permite capturar una fecha </p> </td>
+				</tr>
+				<tr>
+					<td> <p class="texto">Indica tu color favorito</p> </td>
+					<td align="center"> <input name="color_fav" type="color" class="campo"> </td>
+					<td> <p class="texto">Se usa el input tipo color y permite capturar un color </p> </td>
+				</tr>
+				<tr>
+					<td> <p class="texto">Indica tu nacionalidad</p> </td>
+					<td align="center"> 
+						<table width="100%">
+							<tr>
+								<td align="center"><input name="nal" type="radio"></td>
+								<td><p class="texto"> Mexicano </p></td>
+							</tr>
+							<tr>
+								<td align="center"><input name="nal" type="radio"></td>
+								<td><p class="texto"> Canandiense </p></td>
+							</tr>
+							<tr>
+								<td align="center"><input name="nal" type="radio"></td>
+								<td><p class="texto"> Frances </p></td>
+							</tr>
+							<tr>
+								<td align="center"><input name="nal" type="radio"></td>
+								<td><p class="texto"> Español </p></td>
+							</tr>
+						</table>
+					</td>
+					<td> <p class="texto">Se usa el input tipo radio </p> </td>
+				</tr>
+				<tr>
+					<td> <p class="texto">Indica tus animales favoritos</p> </td>
+					<td align="center"> 
+						<table width="100%">
+							<tr>
+								<td align="center"><input name="animal1" type="checkbox"></td>
+								<td><p class="texto"> Perro </p></td>
+							</tr>
+							<tr>
+								<td align="center"><input name="animal2" type="checkbox"></td>
+								<td><p class="texto"> Gato </p></td>
+							</tr>
+							<tr>
+								<td align="center"><input name="animal3" type="checkbox"></td>
+								<td><p class="texto"> Perico </p></td>
+							</tr>
+							<tr>
+								<td align="center"><input name="animal4" type="checkbox"></td>
+								<td><p class="texto"> León </p></td>
+							</tr>
+						</table>
+					</td>
+					<td> <p class="texto">Se usa el input tipo checkbox </p> </td>
+				</tr>
+				<tr>
+					<td><p class="texto">Indica tu carrera</p></td>
+					<td align="center">
+						<select name="carrera" class="campo">
+							<option>ITC</option>
+							<option>IMA</option>
+							<option>IBT</option>
+							<option>IIS</option>
+						</select>
+					</td>
+					<td><p class="texto">Se usa el select y el option
+				</tr>
+				<tr>
+					<td><p class="texto">Indica tus comentarios</p></td>
+					<td align="center"><textarea name="comentarios" class="campo" rows="3" style="text-align: left;"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+					<table width="100%">
+						<tr align="center">
+							<td><input name="b1" type="button" class="boton" value="Enviar"></td>
+							<td><input name="b2" type="reset" class="boton" value="Borrar" style="background:red;">
+							</td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+			</form> <!-- Se cierra el formulario -->
+		</table>
+	</center></body>
+</html>
